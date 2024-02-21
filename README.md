@@ -78,7 +78,7 @@ To run the Playwright tests in UI mode:
 ### 7. Place Bet:
 
 - 🤖 Verify the display and availability of all three betting options while the roulette is idle and the betting timer is active.
-- 🤖 Verify the Sign In modal is shown if not authenticated user trying to place a bet
+- 🤖 Verify the Sign In modal is shown if not authenticated user trying to place a bet.
 - Verify the display of all three betting options as non-interactive during the roulette spin.
 - Verify the betting interface prevents bet placement once the betting timer has expired.
 - Verify the total bets display reflects the accurate count and sum of players' bets for each betting option.
