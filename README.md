@@ -17,7 +17,7 @@ To run the Playwright tests in UI mode:
 
 `npm start`
 
-# CSGO Empire Test Cases
+# CSGO Empire Test Cases (Functional Testing) 
 
 > 🤖 - The logic is automated in the code
 
