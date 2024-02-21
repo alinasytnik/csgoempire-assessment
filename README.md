@@ -1,3 +1,22 @@
+# CSGO Empire Roulette Automation Tests
+
+### Prerequisites
+
+Node.js (v18.0 or newer)
+npm (v7.0 or newer)
+
+### Installation
+
+Install dependencies using npm:
+
+`npm install`
+
+### Usage
+
+To run the Playwright tests in UI mode:
+
+`npm start`
+
 # CSGO Empire Test Cases
 
 > 🤖 - The logic is automated in the code

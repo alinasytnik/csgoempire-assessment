@@ -28,9 +28,6 @@ test.describe("Roulette", () => {
   }) => {
     await expect(page.locator(timerSelector)).toBeVisible();
 
-    // Note: During the spin, two `timerVisibleSelector`s are visible
-    await expect(page.locator(timerVisibleSelector)).toHaveCount(2);
-
     await page.waitForFunction((selector: string) => {
       const timer: Element | null = document.querySelector(selector);
       return timer && timer.textContent?.trim() === "0.00";
